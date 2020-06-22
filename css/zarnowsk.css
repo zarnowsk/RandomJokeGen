@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 0 70px;
+    height: 100%;
+    width: 100%;
+
+    background-color: #0ba9d9;
+    
+    font-family: 'Roboto Slab', serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #e35802;
+    box-shadow: 0 8px 6px -6px black;
+
+    color: #fff;
+    font-size: 15px;
+
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+#logoImgContainer {
+    height: 70px;
+}
+
+#logoImg {
+    height: 100%;
+}
+
+#homeImgContainer {
+    height: 70px;
+    cursor: pointer;
+}
+
+#homeImg {
+    height: 100%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin-bottom: 80px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 60%;
+}
+
+#dropDownContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin: 5px 0;
+
+    font-size: 15px;
+    font-family: inherit;
+  }
+
+label {
+    margin-bottom: 5px;
+
+    color: #fff;  
+    font-size: 20px;
+    text-align: center;
+}
+
+#submitBtn {
+
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #ff8c00;
+    border: 2px solid #ff5500;
+    border-radius: 0.75em;
+}
+
+#submitBtn:hover {
+    background: #ff8c00;
+    border-color: #ff5500;
+}          
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    overflow: hidden;
+
+    background-color: #e35802;
+    box-shadow: 0px 0 7px black;
+
+    color: #fafafa;
+}
+
+#footerData {
+    padding: 10px 0 0 0;
+}
+
+#footerImg {
+    padding: 5px 0;
+}
